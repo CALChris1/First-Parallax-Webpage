@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.streetview {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(assets/streetview.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.section-1 {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-size: 1.8em;
+  letter-spacing: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/* Done till here. Do not touch */
+
+.concert-lights {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(assets/concertlights.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-2 {
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.paragraph-1 {
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  padding: 10vw;
+  color: white;
+}
+
+.new-york-city {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(assets/skyline.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* Done. Do not touch */
+.malaysia {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(assets/malaysia.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-4 {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-size: 1.8em;
+  letter-spacing: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
