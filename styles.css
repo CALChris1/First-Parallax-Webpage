@@ -18,7 +18,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 30px;
 }
 
 .section-1 {
@@ -32,39 +31,64 @@ body {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-/* Done till here. Do not touch */
 
 .concert-lights {
   text-align: center;
   height: 100vh;
   width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(assets/concertlights.jpg);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url(assets/maximilian-zahn-lljb38yaLPY-unsplash.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+h3 {
+  font-size: 1.7em;
+  letter-spacing: 3px;
+  margin-bottom: 3vh;
+}
+
+p {
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
 .section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: gainsboro;
   color: white;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .paragraph-1 {
-  flex-direction: flex-end;
-  background-color: black;
+  display: flex;
+  align-items: flex-start;
+  height: 50vh;
   color: white;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  font-size: 1.5em;
 }
 
+
 .new-york-city {
+  text-align: center;
   height: 100vh;
   width: 100vw;
   display: flex;
-  color: white;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   background-image: url(assets/skyline.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -75,16 +99,65 @@ body {
 .section-3 {
   display: flex;
   flex-direction: column;
-  height: 50%;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .paragraph-2 {
   display: flex;
-  flex-direction: column;
-  height: 50%;
+  align-items: flex-start;
+  height: 50vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  font-size: 1.5em;
 }
 
-/* Done. Do not touch */
+.reminiscing {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url(assets/reminiscing.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.paragraph-3 {
+  display: flex;
+  align-items: flex-start;
+  height: 50vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  font-size: 1.8em;
+}
+
 .malaysia {
   height: 100vh;
   width: 100vw;
@@ -98,7 +171,7 @@ body {
   background-size: cover;
 }
 
-.section-4 {
+.section-5 {
   border: 1px solid black;
   background-color: black;
   color: white;
@@ -109,3 +182,8 @@ body {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
+h2 {
+  font-weight: 545;
+}
+
