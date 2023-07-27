@@ -81,7 +81,6 @@ p {
   font-size: 1.5em;
 }
 
-
 .new-york-city {
   text-align: center;
   height: 100vh;
@@ -187,3 +186,64 @@ h2 {
   font-weight: 545;
 }
 
+@media screen and (max-width: 700px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-2, .section-3, .section-4 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h3 {
+    font-size: 1.35rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  .paragraph-1, .paragraph-2, .paragraph-3 {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  .paragraph-1, .paragraph-2, .paragraph-3 {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+}
